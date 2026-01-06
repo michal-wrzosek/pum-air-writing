@@ -16,8 +16,14 @@ export async function POST(request: Request) {
 
   // write this data as a json file to the local filesystem. filename is <label>_<timestamp>.json
   const timestamp = Date.now();
-  const filename = `${data.label}_${timestamp}.json`;
-  const filepath = path.join(process.cwd(), "sensor-data", filename);
+  const filename = data.label
+    ? `${data.label}_${timestamp}.json`
+    : `${timestamp}.json`;
+  const filepath = path.join(
+    process.cwd(),
+    data.label ? "sensor-data" : "sensor-data/testing",
+    filename
+  );
 
   // Ensure the directory exists
   fs.mkdirSync(path.dirname(filepath), { recursive: true });
