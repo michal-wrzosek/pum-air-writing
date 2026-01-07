@@ -1,5 +1,17 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useCallback, useRef, useState } from "react";
+import "./globals.css";
+
+const simplifyTo2D = (
+  data: { x: number; y: number; z: number; msElapsedSinceStart: number }[]
+) => {
+  return data.map(({ x, y, z, msElapsedSinceStart }) => ({
+    x,
+    z,
+    y,
+    msElapsedSinceStart,
+  }));
+};
 
 export const Sensor = () => {
   const [permissionGranted, setPermissionGranted] = useState<boolean>();
@@ -58,12 +70,16 @@ export const Sensor = () => {
   const handleEnd = useCallback(() => {
     window.removeEventListener("devicemotion", handleMotion);
     setActive(false);
+
+    // Simplify the data to only x and y dimensions
+    const simplifiedData = simplifyTo2D(dataRef.current);
+
     fetch("/api/send-sensor-data", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ label, data: dataRef.current }),
+      body: JSON.stringify({ label, data: simplifiedData }),
     });
   }, [handleMotion, label]);
 
@@ -74,16 +90,34 @@ export const Sensor = () => {
     setActive(true);
   }, [handleMotion]);
 
-  const handleEndWithoutLabel = useCallback(() => {
+  const handleEndWithoutLabel = useCallback(async () => {
     window.removeEventListener("devicemotion", handleMotion);
     setActive(false);
-    fetch("/api/send-sensor-data", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ label: "", data: dataRef.current }),
-    });
+
+    const simplifiedData = simplifyTo2D(dataRef.current);
+
+    const payload = {
+      id: Date.now(),
+      data: simplifiedData,
+    };
+
+    try {
+      const response = await fetch("/api/record-data", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        console.error("Failed to send data");
+      } else {
+        console.log("Data sent successfully");
+      }
+    } catch (error) {
+      console.error("Error sending data:", error);
+    }
   }, [handleMotion]);
 
   return (
@@ -109,14 +143,14 @@ export const Sensor = () => {
           <button
             onTouchStart={handleStart}
             onTouchEnd={handleEnd}
-            className="border p-4 bg-blue-500 text-white rounded"
+            className="border select-none p-4 bg-blue-500 text-white rounded"
           >
             {active ? "Recording..." : "Hold to record motion"}
           </button>
           <button
             onTouchStart={handleStartWithoutLabel}
             onTouchEnd={handleEndWithoutLabel}
-            className="border p-4 bg-green-500 text-white rounded"
+            className="border select-none p-4 bg-green-500 text-white rounded"
           >
             {active ? "Recording ID..." : "Hold to record ID only"}
           </button>

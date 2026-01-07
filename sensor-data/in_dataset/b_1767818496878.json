@@ -1,0 +1,233 @@
+{
+  "label": "b",
+  "data": [
+    {
+      "x": -0.1,
+      "z": -0.30000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 34
+    },
+    {
+      "x": 0.2,
+      "z": -0.30000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 51
+    },
+    {
+      "x": 0.2,
+      "z": -0.1,
+      "y": 0,
+      "msElapsedSinceStart": 68
+    },
+    {
+      "x": 0.30000000000000004,
+      "z": -0.2,
+      "y": 0,
+      "msElapsedSinceStart": 84
+    },
+    {
+      "x": 0.2,
+      "z": -0.5,
+      "y": 0,
+      "msElapsedSinceStart": 101
+    },
+    {
+      "x": 0.1,
+      "z": -0.7000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 117
+    },
+    {
+      "x": -0.1,
+      "z": -0.8,
+      "y": 0,
+      "msElapsedSinceStart": 134
+    },
+    {
+      "x": -0.30000000000000004,
+      "z": -0.6000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 151
+    },
+    {
+      "x": -0.5,
+      "z": -0.5,
+      "y": 0,
+      "msElapsedSinceStart": 167
+    },
+    {
+      "x": -0.30000000000000004,
+      "z": -0.5,
+      "y": 0,
+      "msElapsedSinceStart": 184
+    },
+    {
+      "x": 0.1,
+      "z": -0.30000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 201
+    },
+    {
+      "x": 0.2,
+      "z": -0.6000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 217
+    },
+    {
+      "x": 0.30000000000000004,
+      "z": -0.6000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 251
+    },
+    {
+      "x": 0.6000000000000001,
+      "z": -0.8,
+      "y": 0,
+      "msElapsedSinceStart": 267
+    },
+    {
+      "x": 1.1,
+      "z": -0.9,
+      "y": 0,
+      "msElapsedSinceStart": 284
+    },
+    {
+      "x": 1,
+      "z": -1,
+      "y": 0,
+      "msElapsedSinceStart": 301
+    },
+    {
+      "x": 1.1,
+      "z": -0.30000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 318
+    },
+    {
+      "x": 2.5,
+      "z": 1.7000000000000002,
+      "y": 0,
+      "msElapsedSinceStart": 334
+    },
+    {
+      "x": 4.3,
+      "z": 2.7,
+      "y": 0,
+      "msElapsedSinceStart": 351
+    },
+    {
+      "x": 5.7,
+      "z": 2.5,
+      "y": 0,
+      "msElapsedSinceStart": 368
+    },
+    {
+      "x": 6,
+      "z": 3.1,
+      "y": 0,
+      "msElapsedSinceStart": 384
+    },
+    {
+      "x": 5.2,
+      "z": 4.5,
+      "y": 0,
+      "msElapsedSinceStart": 401
+    },
+    {
+      "x": 4,
+      "z": 6.1000000000000005,
+      "y": 0,
+      "msElapsedSinceStart": 417
+    },
+    {
+      "x": 2.1,
+      "z": 6.7,
+      "y": 0,
+      "msElapsedSinceStart": 434
+    },
+    {
+      "x": 0.4,
+      "z": 6.7,
+      "y": 0,
+      "msElapsedSinceStart": 451
+    },
+    {
+      "x": -1.1,
+      "z": 7.5,
+      "y": 0,
+      "msElapsedSinceStart": 467
+    },
+    {
+      "x": -3.4000000000000004,
+      "z": 7.9,
+      "y": 0,
+      "msElapsedSinceStart": 484
+    },
+    {
+      "x": -5.9,
+      "z": 8.3,
+      "y": 0,
+      "msElapsedSinceStart": 501
+    },
+    {
+      "x": -7.9,
+      "z": 8.200000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 518
+    },
+    {
+      "x": -8.3,
+      "z": 7.4,
+      "y": 0,
+      "msElapsedSinceStart": 534
+    },
+    {
+      "x": -7.9,
+      "z": 6,
+      "y": 0,
+      "msElapsedSinceStart": 551
+    },
+    {
+      "x": -7.6000000000000005,
+      "z": 4.5,
+      "y": 0,
+      "msElapsedSinceStart": 567
+    },
+    {
+      "x": -6.9,
+      "z": 2.5,
+      "y": 0,
+      "msElapsedSinceStart": 584
+    },
+    {
+      "x": -5.7,
+      "z": 0.9,
+      "y": 0,
+      "msElapsedSinceStart": 602
+    },
+    {
+      "x": -4.3,
+      "z": -0.30000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 617
+    },
+    {
+      "x": -3,
+      "z": -1.1,
+      "y": 0,
+      "msElapsedSinceStart": 634
+    },
+    {
+      "x": -1.9000000000000001,
+      "z": -2.1,
+      "y": 0,
+      "msElapsedSinceStart": 651
+    },
+    {
+      "x": 0.7000000000000001,
+      "z": -3.7,
+      "y": 0,
+      "msElapsedSinceStart": 668
+    }
+  ]
+}

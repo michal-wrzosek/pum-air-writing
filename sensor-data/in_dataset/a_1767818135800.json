@@ -1,0 +1,47 @@
+{
+  "label": "a",
+  "data": [
+    {
+      "x": 1.7000000000000002,
+      "z": -0.8,
+      "y": 0,
+      "msElapsedSinceStart": 3
+    },
+    {
+      "x": 1.9000000000000001,
+      "z": -1.1,
+      "y": 0,
+      "msElapsedSinceStart": 19
+    },
+    {
+      "x": 1.6,
+      "z": -0.4,
+      "y": 0,
+      "msElapsedSinceStart": 36
+    },
+    {
+      "x": 1.8,
+      "z": 0.7000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 53
+    },
+    {
+      "x": 2,
+      "z": 1.1,
+      "y": 0,
+      "msElapsedSinceStart": 69
+    },
+    {
+      "x": 1.9000000000000001,
+      "z": 1.1,
+      "y": 0,
+      "msElapsedSinceStart": 86
+    },
+    {
+      "x": 1.7000000000000002,
+      "z": 1,
+      "y": 0,
+      "msElapsedSinceStart": 103
+    }
+  ]
+}

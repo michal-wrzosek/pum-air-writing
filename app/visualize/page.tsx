@@ -1,17 +1,18 @@
 "use client";
 import dynamic from "next/dynamic";
 import { ComponentProps, useMemo } from "react";
-import dataA0 from "@/sensor-data/a_1767790859614.json";
-import dataA1 from "@/sensor-data/a_1767790861573.json";
-import dataA2 from "@/sensor-data/a_1767790863621.json";
-import dataA3 from "@/sensor-data/a_1767790865812.json";
-import dataA4 from "@/sensor-data/a_1767790870742.json";
+// import dataA0 from "@/sensor-data/a_1767790859614.json";
+// import dataA1 from "@/sensor-data/a_1767790861573.json";
+// import dataA2 from "@/sensor-data/a_1767790863621.json";
+// import dataA3 from "@/sensor-data/a_1767790865812.json";
+// import dataA4 from "@/sensor-data/a_1767790870742.json";
+// import dataA5 from "@/sensor-data/a_1767817925992.json";
 
-import dataB0 from "@/sensor-data/b_1767790876318.json";
-import dataB1 from "@/sensor-data/b_1767790878163.json";
-import dataB2 from "@/sensor-data/b_1767790879799.json";
-import dataB3 from "@/sensor-data/b_1767790881564.json";
-import dataB4 from "@/sensor-data/b_1767790889528.json";
+// import dataB0 from "@/sensor-data/b_1767790876318.json";
+// import dataB1 from "@/sensor-data/b_1767790878163.json";
+// import dataB2 from "@/sensor-data/b_1767790879799.json";
+// import dataB3 from "@/sensor-data/b_1767790881564.json";
+// import dataB4 from "@/sensor-data/b_1767790889528.json";
 
 const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
 
@@ -39,16 +40,17 @@ const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
 // import dataB9 from "@/sensor-data/b_1767732151870.json";
 
 const dataSets = [
-  dataA0,
-  dataA1,
-  dataA2,
-  dataA3,
-  dataA4,
-  dataB0,
-  dataB1,
-  dataB2,
-  dataB3,
-  dataB4,
+  // dataA0,
+  // dataA1,
+  // dataA2,
+  // dataA3,
+  // dataA4,
+  // dataA5,
+  // dataB0,
+  // dataB1,
+  // dataB2,
+  // dataB3,
+  // dataB4,
 ];
 
 export default function VisualizePage() {

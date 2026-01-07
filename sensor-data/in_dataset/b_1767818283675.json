@@ -1,0 +1,29 @@
+{
+  "label": "b",
+  "data": [
+    {
+      "x": -0.4,
+      "z": -1.4000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 11
+    },
+    {
+      "x": 0.5,
+      "z": 1,
+      "y": 0,
+      "msElapsedSinceStart": 45
+    },
+    {
+      "x": 0.1,
+      "z": 0.5,
+      "y": 0,
+      "msElapsedSinceStart": 61
+    },
+    {
+      "x": -0.30000000000000004,
+      "z": -0.4,
+      "y": 0,
+      "msElapsedSinceStart": 78
+    }
+  ]
+}

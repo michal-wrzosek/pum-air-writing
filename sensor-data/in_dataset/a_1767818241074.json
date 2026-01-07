@@ -1,0 +1,341 @@
+{
+  "label": "a",
+  "data": [
+    {
+      "x": -0.2,
+      "z": 1.3,
+      "y": 0,
+      "msElapsedSinceStart": 35
+    },
+    {
+      "x": -0.7000000000000001,
+      "z": 1.6,
+      "y": 0,
+      "msElapsedSinceStart": 51
+    },
+    {
+      "x": -1.3,
+      "z": 2,
+      "y": 0,
+      "msElapsedSinceStart": 68
+    },
+    {
+      "x": -1.4000000000000001,
+      "z": 1.9000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 85
+    },
+    {
+      "x": -1.5,
+      "z": 1.4000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 101
+    },
+    {
+      "x": -1.5,
+      "z": 0.7000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 119
+    },
+    {
+      "x": -1.3,
+      "z": 0.30000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 135
+    },
+    {
+      "x": -1.1,
+      "z": -0.2,
+      "y": 0,
+      "msElapsedSinceStart": 151
+    },
+    {
+      "x": -0.7000000000000001,
+      "z": -1.2000000000000002,
+      "y": 0,
+      "msElapsedSinceStart": 168
+    },
+    {
+      "x": -0.2,
+      "z": -2.2,
+      "y": 0,
+      "msElapsedSinceStart": 184
+    },
+    {
+      "x": 0.30000000000000004,
+      "z": -2.8000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 201
+    },
+    {
+      "x": 0.8,
+      "z": -3.2,
+      "y": 0,
+      "msElapsedSinceStart": 218
+    },
+    {
+      "x": 1.3,
+      "z": -3.5,
+      "y": 0,
+      "msElapsedSinceStart": 235
+    },
+    {
+      "x": 2,
+      "z": -3.5,
+      "y": 0,
+      "msElapsedSinceStart": 251
+    },
+    {
+      "x": 2.8000000000000003,
+      "z": -2.9000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 268
+    },
+    {
+      "x": 3.1,
+      "z": -2.8000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 284
+    },
+    {
+      "x": 3.2,
+      "z": -2.6,
+      "y": 0,
+      "msElapsedSinceStart": 301
+    },
+    {
+      "x": 3.8000000000000003,
+      "z": -2.3000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 319
+    },
+    {
+      "x": 5,
+      "z": -1.9000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 334
+    },
+    {
+      "x": 6.300000000000001,
+      "z": -1.8,
+      "y": 0,
+      "msElapsedSinceStart": 351
+    },
+    {
+      "x": 7.5,
+      "z": -1.8,
+      "y": 0,
+      "msElapsedSinceStart": 368
+    },
+    {
+      "x": 8.6,
+      "z": -1.1,
+      "y": 0,
+      "msElapsedSinceStart": 384
+    },
+    {
+      "x": 9.600000000000001,
+      "z": -0.4,
+      "y": 0,
+      "msElapsedSinceStart": 401
+    },
+    {
+      "x": 10,
+      "z": 0.8,
+      "y": 0,
+      "msElapsedSinceStart": 418
+    },
+    {
+      "x": 9.700000000000001,
+      "z": 2,
+      "y": 0,
+      "msElapsedSinceStart": 434
+    },
+    {
+      "x": 9.4,
+      "z": 3.3000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 452
+    },
+    {
+      "x": 9,
+      "z": 5,
+      "y": 0,
+      "msElapsedSinceStart": 468
+    },
+    {
+      "x": 7.800000000000001,
+      "z": 7,
+      "y": 0,
+      "msElapsedSinceStart": 485
+    },
+    {
+      "x": 5.7,
+      "z": 9.1,
+      "y": 0,
+      "msElapsedSinceStart": 501
+    },
+    {
+      "x": 3.2,
+      "z": 10,
+      "y": 0,
+      "msElapsedSinceStart": 518
+    },
+    {
+      "x": 0.8,
+      "z": 10,
+      "y": 0,
+      "msElapsedSinceStart": 534
+    },
+    {
+      "x": -1,
+      "z": 10.100000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 552
+    },
+    {
+      "x": -2.4000000000000004,
+      "z": 9.4,
+      "y": 0,
+      "msElapsedSinceStart": 568
+    },
+    {
+      "x": -3.1,
+      "z": 8.200000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 584
+    },
+    {
+      "x": -3.1,
+      "z": 6.7,
+      "y": 0,
+      "msElapsedSinceStart": 601
+    },
+    {
+      "x": -2.6,
+      "z": 5.300000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 618
+    },
+    {
+      "x": -2,
+      "z": 3.6,
+      "y": 0,
+      "msElapsedSinceStart": 634
+    },
+    {
+      "x": -1.3,
+      "z": 1.7000000000000002,
+      "y": 0,
+      "msElapsedSinceStart": 651
+    },
+    {
+      "x": 0.5,
+      "z": -0.7000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 668
+    },
+    {
+      "x": 1.5,
+      "z": -1.2000000000000002,
+      "y": 0,
+      "msElapsedSinceStart": 684
+    },
+    {
+      "x": 2.3000000000000003,
+      "z": -2.2,
+      "y": 0,
+      "msElapsedSinceStart": 702
+    },
+    {
+      "x": 2.7,
+      "z": -2.4000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 719
+    },
+    {
+      "x": 3.2,
+      "z": -3,
+      "y": 0,
+      "msElapsedSinceStart": 734
+    },
+    {
+      "x": 3.6,
+      "z": -3.7,
+      "y": 0,
+      "msElapsedSinceStart": 752
+    },
+    {
+      "x": 3.9000000000000004,
+      "z": -4.3,
+      "y": 0,
+      "msElapsedSinceStart": 768
+    },
+    {
+      "x": 4.2,
+      "z": -4.3,
+      "y": 0,
+      "msElapsedSinceStart": 784
+    },
+    {
+      "x": 4.2,
+      "z": -3.8000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 801
+    },
+    {
+      "x": 4,
+      "z": -3,
+      "y": 0,
+      "msElapsedSinceStart": 818
+    },
+    {
+      "x": 3.8000000000000003,
+      "z": -2.8000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 835
+    },
+    {
+      "x": 3.9000000000000004,
+      "z": -2.9000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 852
+    },
+    {
+      "x": 4.3,
+      "z": -2.8000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 868
+    },
+    {
+      "x": 4.9,
+      "z": -1.9000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 884
+    },
+    {
+      "x": 5.300000000000001,
+      "z": -0.1,
+      "y": 0,
+      "msElapsedSinceStart": 901
+    },
+    {
+      "x": 4.9,
+      "z": 1.7000000000000002,
+      "y": 0,
+      "msElapsedSinceStart": 918
+    },
+    {
+      "x": 3.8000000000000003,
+      "z": 3.5,
+      "y": 0,
+      "msElapsedSinceStart": 935
+    },
+    {
+      "x": 2.3000000000000003,
+      "z": 5.9,
+      "y": 0,
+      "msElapsedSinceStart": 952
+    }
+  ]
+}
