@@ -1,6 +1,5 @@
 "use client";
-
-import Plot from "react-plotly.js";
+import dynamic from "next/dynamic";
 import { ComponentProps, useMemo } from "react";
 import dataA0 from "@/sensor-data/a_1767790859614.json";
 import dataA1 from "@/sensor-data/a_1767790861573.json";
@@ -13,6 +12,8 @@ import dataB1 from "@/sensor-data/b_1767790878163.json";
 import dataB2 from "@/sensor-data/b_1767790879799.json";
 import dataB3 from "@/sensor-data/b_1767790881564.json";
 import dataB4 from "@/sensor-data/b_1767790889528.json";
+
+const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
 
 // readings including gravity
 // import dataA0 from "@/sensor-data/a_1767732095034.json";
