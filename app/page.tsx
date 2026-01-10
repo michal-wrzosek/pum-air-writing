@@ -1,6 +1,6 @@
 "use client";
 
-import { Sensor } from "./sensor";
+import { Sensor } from "./components/sensor";
 
 export default function Home() {
   return <Sensor />;
