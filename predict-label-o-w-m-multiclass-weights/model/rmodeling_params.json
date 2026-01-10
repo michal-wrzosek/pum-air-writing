@@ -1,0 +1,85 @@
+{
+  "algorithm": "LOGISTIC_REGRESSION",
+  "logit_grid": {
+    "multi_class": "ovr",
+    "penalty": {
+      "values": {
+        "l1": {
+          "enabled": true
+        },
+        "l2": {
+          "enabled": false
+        }
+      }
+    },
+    "C": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1.0E-23
+      },
+      "values": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "range": {
+        "min": 0.01,
+        "max": 100.0,
+        "nbValues": 3,
+        "scaling": "LOGARITHMIC"
+      }
+    },
+    "n_jobs": 2,
+    "enabled": true
+  },
+  "max_ensemble_nodes_serialized": 0,
+  "metrics": {
+    "customMetrics": [],
+    "evaluationMetric": "ROC_AUC",
+    "classAveragingMethod": "MACRO",
+    "costMatrixWeights": {
+      "tpGain": 1.0,
+      "tnGain": 0.0,
+      "fpGain": -0.3,
+      "fnGain": 0.0
+    },
+    "liftPoint": 0.4,
+    "netUpliftPoint": 0.5,
+    "causalWeighting": "NO_WEIGHTING"
+  },
+  "autoOptimizeThreshold": true,
+  "forcedClassifierThreshold": 0.0,
+  "gridLength": 24,
+  "grid_search_params": {
+    "mode": "KFOLD",
+    "splitRatio": 0.8,
+    "shuffleIterations": 1,
+    "nFolds": 5,
+    "cvSeed": 1337,
+    "stratified": true,
+    "grouped": false,
+    "strategy": "RANDOM",
+    "bayesianOptimizer": "SCIKIT_OPTIMIZE",
+    "randomized": true,
+    "seed": 1337,
+    "nIter": 0,
+    "nIterRandom": 24,
+    "timeout": 0,
+    "nJobs": 4,
+    "distributed": false,
+    "nContainers": 4,
+    "foldOffset": true,
+    "equalDurationFolds": false
+  },
+  "pluginAlgoCustomGridSearch": false,
+  "computeLearningCurves": false,
+  "skipExpensiveReports": false,
+  "propensityModeling": {
+    "enabled": true,
+    "calibrateProbabilities": false,
+    "calibrationDataRatio": 0.1
+  }
+}

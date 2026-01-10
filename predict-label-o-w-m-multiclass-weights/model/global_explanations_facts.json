@@ -1,0 +1,234 @@
+{
+    "perClassFacts": {
+        "w": {
+            "p15_y": {
+                "impact": 0.41381594208528905,
+                "rank": 1,
+                "feature": "p15_y",
+                "correlation": 0.9393939393939393,
+                "type": "NUMERICAL"
+            },
+            "p15_z": {
+                "impact": 0.18351316303575602,
+                "rank": 2,
+                "feature": "p15_z",
+                "correlation": 0.9307359307359306,
+                "type": "NUMERICAL"
+            },
+            "p2_z": {
+                "impact": 0.15448183865619372,
+                "rank": 3,
+                "feature": "p2_z",
+                "correlation": -0.9370954802033271,
+                "type": "NUMERICAL"
+            },
+            "p14_x": {
+                "impact": 0.14953136771025535,
+                "rank": 4,
+                "feature": "p14_x",
+                "correlation": 0.922077922077922,
+                "type": "NUMERICAL"
+            },
+            "total_path_length": {
+                "impact": 0.10845401553565316,
+                "rank": 5,
+                "feature": "total_path_length",
+                "correlation": 0.9134199134199134,
+                "type": "NUMERICAL"
+            },
+            "p14_z": {
+                "impact": 0.0823475305858819,
+                "rank": 6,
+                "feature": "p14_z",
+                "correlation": 0.9393939393939393,
+                "type": "NUMERICAL"
+            },
+            "p16_y": {
+                "impact": 0.0764045085916239,
+                "rank": 7,
+                "feature": "p16_y",
+                "correlation": 0.8874458874458874,
+                "type": "NUMERICAL"
+            },
+            "p8_x": {
+                "impact": 0.06285535108506901,
+                "rank": 8,
+                "feature": "p8_x",
+                "correlation": -0.9307359307359306,
+                "type": "NUMERICAL"
+            },
+            "p10_y": {
+                "impact": 0.027708031882563967,
+                "rank": 9,
+                "feature": "p10_y",
+                "correlation": -0.974025974025974,
+                "type": "NUMERICAL"
+            },
+            "avg_step_length": {
+                "impact": 0.0018162734812250767,
+                "rank": 11,
+                "feature": "avg_step_length",
+                "correlation": 0.922077922077922,
+                "type": "NUMERICAL"
+            }
+        },
+        "m": {
+            "p15_z": {
+                "impact": 0.3557503297355599,
+                "rank": 1,
+                "feature": "p15_z",
+                "correlation": -0.9567099567099567,
+                "type": "NUMERICAL"
+            },
+            "p2_z": {
+                "impact": 0.29612028254050293,
+                "rank": 2,
+                "feature": "p2_z",
+                "correlation": 0.9284186702014444,
+                "type": "NUMERICAL"
+            },
+            "p15_y": {
+                "impact": 0.2522037662740228,
+                "rank": 3,
+                "feature": "p15_y",
+                "correlation": -0.9047619047619047,
+                "type": "NUMERICAL"
+            },
+            "p14_z": {
+                "impact": 0.15205943879387587,
+                "rank": 4,
+                "feature": "p14_z",
+                "correlation": -0.948051948051948,
+                "type": "NUMERICAL"
+            },
+            "p14_x": {
+                "impact": 0.14957762227600788,
+                "rank": 5,
+                "feature": "p14_x",
+                "correlation": 0.8874458874458874,
+                "type": "NUMERICAL"
+            },
+            "total_path_length": {
+                "impact": 0.0910844540605491,
+                "rank": 6,
+                "feature": "total_path_length",
+                "correlation": 0.8787878787878788,
+                "type": "NUMERICAL"
+            },
+            "p19_x": {
+                "impact": 0.06557602010359428,
+                "rank": 7,
+                "feature": "p19_x",
+                "correlation": -0.9134199134199134,
+                "type": "NUMERICAL"
+            },
+            "p8_x": {
+                "impact": 0.059069184074204965,
+                "rank": 8,
+                "feature": "p8_x",
+                "correlation": -0.8441558441558441,
+                "type": "NUMERICAL"
+            },
+            "p16_y": {
+                "impact": 0.04145613205243496,
+                "rank": 9,
+                "feature": "p16_y",
+                "correlation": -0.8528138528138528,
+                "type": "NUMERICAL"
+            },
+            "p10_y": {
+                "impact": 0.013318291159791258,
+                "rank": 10,
+                "feature": "p10_y",
+                "correlation": 0.8441558441558441,
+                "type": "NUMERICAL"
+            },
+            "avg_step_length": {
+                "impact": 0.0016379325276712356,
+                "rank": 11,
+                "feature": "avg_step_length",
+                "correlation": 0.8874458874458874,
+                "type": "NUMERICAL"
+            }
+        },
+        "o": {
+            "p14_x": {
+                "impact": 0.3274427392598241,
+                "rank": 1,
+                "feature": "p14_x",
+                "correlation": -0.974025974025974,
+                "type": "NUMERICAL"
+            },
+            "p15_y": {
+                "impact": 0.2188136903556982,
+                "rank": 2,
+                "feature": "p15_y",
+                "correlation": -0.8268398268398268,
+                "type": "NUMERICAL"
+            },
+            "total_path_length": {
+                "impact": 0.2124636793013389,
+                "rank": 3,
+                "feature": "total_path_length",
+                "correlation": -0.9653679653679654,
+                "type": "NUMERICAL"
+            },
+            "p2_z": {
+                "impact": 0.14171464371650835,
+                "rank": 4,
+                "feature": "p2_z",
+                "correlation": -0.9631259102089751,
+                "type": "NUMERICAL"
+            },
+            "p8_x": {
+                "impact": 0.13545866342968238,
+                "rank": 5,
+                "feature": "p8_x",
+                "correlation": 0.9393939393939393,
+                "type": "NUMERICAL"
+            },
+            "p15_z": {
+                "impact": 0.13331772602824687,
+                "rank": 6,
+                "feature": "p15_z",
+                "correlation": 0.948051948051948,
+                "type": "NUMERICAL"
+            },
+            "p14_z": {
+                "impact": 0.06697018106503973,
+                "rank": 7,
+                "feature": "p14_z",
+                "correlation": 0.9393939393939393,
+                "type": "NUMERICAL"
+            },
+            "p19_x": {
+                "impact": 0.06379755695632515,
+                "rank": 8,
+                "feature": "p19_x",
+                "correlation": 0.9913419913419913,
+                "type": "NUMERICAL"
+            },
+            "p16_y": {
+                "impact": 0.040137748614144535,
+                "rank": 9,
+                "feature": "p16_y",
+                "correlation": -0.8268398268398268,
+                "type": "NUMERICAL"
+            },
+            "p10_y": {
+                "impact": 0.01158895716732713,
+                "rank": 10,
+                "feature": "p10_y",
+                "correlation": 0.7316017316017316,
+                "type": "NUMERICAL"
+            },
+            "avg_step_length": {
+                "impact": 0.0038782116010316284,
+                "rank": 11,
+                "feature": "avg_step_length",
+                "correlation": -0.9826839826839827,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}
