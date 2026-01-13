@@ -1,116 +1,156 @@
 "use client";
 import dynamic from "next/dynamic";
-import { ComponentProps, useMemo } from "react";
-import dataA0 from "@/sensor-data/a_1767790859614.json";
-import dataA1 from "@/sensor-data/a_1767790861573.json";
-import dataA2 from "@/sensor-data/a_1767790863621.json";
-import dataA3 from "@/sensor-data/a_1767790865812.json";
-import dataA4 from "@/sensor-data/a_1767790870742.json";
-
-import dataB0 from "@/sensor-data/b_1767790876318.json";
-import dataB1 from "@/sensor-data/b_1767790878163.json";
-import dataB2 from "@/sensor-data/b_1767790879799.json";
-import dataB3 from "@/sensor-data/b_1767790881564.json";
-import dataB4 from "@/sensor-data/b_1767790889528.json";
+import { useMemo, useState } from "react";
+import Papa from "papaparse";
 
 const Plot = dynamic(() => import("react-plotly.js"), { ssr: false });
 
-// readings including gravity
-// import dataA0 from "@/sensor-data/a_1767732095034.json";
-// import dataA1 from "@/sensor-data/a_1767732093193.json";
-// import dataA2 from "@/sensor-data/a_1767732091308.json";
-// import dataA3 from "@/sensor-data/a_1767732089542.json";
-// import dataA4 from "@/sensor-data/a_1767732087753.json";
-// import dataA5 from "@/sensor-data/a_1767732085923.json";
-// import dataA6 from "@/sensor-data/a_1767732083792.json";
-// import dataA7 from "@/sensor-data/a_1767732081976.json";
-// import dataA8 from "@/sensor-data/a_1767732080087.json";
-// import dataA9 from "@/sensor-data/a_1767732077646.json";
+type Gesture = {
+  label: string;
+  points: { x: number; y: number; z: number; t?: number }[];
+};
 
-// import dataB0 from "@/sensor-data/b_1767732139295.json";
-// import dataB1 from "@/sensor-data/b_1767732140710.json";
-// import dataB2 from "@/sensor-data/b_1767732142088.json";
-// import dataB3 from "@/sensor-data/b_1767732143575.json";
-// import dataB4 from "@/sensor-data/b_1767732144806.json";
-// import dataB5 from "@/sensor-data/b_1767732146328.json";
-// import dataB6 from "@/sensor-data/b_1767732147776.json";
-// import dataB7 from "@/sensor-data/b_1767732149206.json";
-// import dataB8 from "@/sensor-data/b_1767732150540.json";
-// import dataB9 from "@/sensor-data/b_1767732151870.json";
+const VisualizePage = () => {
+  const [gestures, setGestures] = useState<Gesture[]>([]);
+  const [labelFilter, setLabelFilter] = useState<string>("ALL");
+  const [limit, setLimit] = useState<number>(50);
 
-const dataSets = [
-  dataA0,
-  dataA1,
-  dataA2,
-  dataA3,
-  dataA4,
-  dataB0,
-  dataB1,
-  dataB2,
-  dataB3,
-  dataB4,
-];
+  const handleLoadDataset = async () => {
+    try {
+      const response = await fetch("/datasets/sensor-data.csv", {
+        cache: "no-store",
+      });
+      if (!response.ok) throw new Error("Failed to load dataset");
 
-export default function VisualizePage() {
-  // Use Plotly to plot the sensor data as a 3d line
-  const plotData: ComponentProps<typeof Plot>["data"] = useMemo(() => {
-    return dataSets.map((data) => {
-      const normalize = data.data.reduce(
-        (acc, { x, y, z }) => [
-          ...acc,
-          {
-            // x: x,
-            // y: y,
-            // z: z,
-            x: acc[acc.length - 1].x + x,
-            y: acc[acc.length - 1].y + y,
-            z: acc[acc.length - 1].z + z,
-          },
-        ],
-        // []
-        [{ x: 0, y: 0, z: 0 }]
-      );
+      const csvText = await response.text();
+      const parsed = Papa.parse<Record<string, string>>(csvText, {
+        header: true,
+        skipEmptyLines: true,
+      });
 
-      return {
-        x: normalize.map((r) => r.x),
-        y: normalize.map((r) => r.y),
-        z: normalize.map((r) => r.z),
-        mode: "lines+markers",
-        type: "scatter3d",
-        line: {
-          width: 2,
-          color: data.label === "a" ? "blue" : "green",
-        },
-        marker: {
-          size: normalize.map((_, i) => (i === 0 ? 10 : 1)),
-          color: data.label === "a" ? "blue" : "green",
-        },
-        name: `Sensor Data - ${data.label}`,
-      };
-    });
-  }, []);
+      if (parsed.errors.length > 0) {
+        console.error("CSV Parsing Errors:", parsed.errors);
+        return;
+      }
 
-  const layout: ComponentProps<typeof Plot>["layout"] = useMemo(
-    () => ({
-      title: { text: `3D Sensor Data Visualization` },
-      scene: {
-        xaxis: { title: { text: "X Axis" } },
-        yaxis: { title: { text: "Y Axis" } },
-        zaxis: { title: { text: "Z Axis" } },
-      },
-      autosize: true,
-    }),
-    []
-  );
+      const extracted: Gesture[] = [];
+
+      (parsed.data ?? []).forEach((row) => {
+        const label = (row["label"] ?? "Unknown").trim() || "Unknown";
+        const points: Gesture["points"] = [];
+
+        for (let i = 1; i <= 20; i++) {
+          const x = Number(row[`p${i}_x`]);
+          const y = Number(row[`p${i}_y`]);
+          const z = Number(row[`p${i}_z`]);
+          const tRaw = row[`p${i}_t`];
+          const t = tRaw !== undefined ? Number(tRaw) : undefined;
+
+          // Skip invalid points
+          if (!Number.isFinite(x) || !Number.isFinite(y) || !Number.isFinite(z))
+            continue;
+
+          points.push({ x, y, z, ...(Number.isFinite(t) ? { t } : {}) });
+        }
+
+        if (points.length > 0) extracted.push({ label, points });
+      });
+
+      setGestures(extracted);
+    } catch (error) {
+      console.error("Error loading dataset:", error);
+    }
+  };
+
+  const availableLabels = useMemo(() => {
+    const set = new Set(gestures.map((g) => g.label));
+    return ["ALL", ...Array.from(set).sort()];
+  }, [gestures]);
+
+  const filteredGestures = useMemo(() => {
+    const base =
+      labelFilter === "ALL"
+        ? gestures
+        : gestures.filter((g) => g.label === labelFilter);
+    return base.slice(0, Math.max(1, limit));
+  }, [gestures, labelFilter, limit]);
 
   return (
-    <div className="w-screen h-screen">
-      <Plot
-        data={plotData}
-        layout={layout}
-        style={{ width: "100%", height: "100%" }}
-        useResizeHandler
-      />
+    <div className="flex flex-col items-center justify-center min-h-screen p-6 w-full">
+      <h1 className="text-2xl font-bold mb-4">Visualize Gestures</h1>
+
+      <div className="flex flex-wrap gap-3 items-center mb-4">
+        <button
+          onClick={handleLoadDataset}
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Load Dataset
+        </button>
+
+        <label className="flex items-center gap-2">
+          <span className="text-sm">Label:</span>
+          <select
+            className="border rounded px-2 py-1"
+            value={labelFilter}
+            onChange={(e) => setLabelFilter(e.target.value)}
+          >
+            {availableLabels.map((l) => (
+              <option key={l} value={l}>
+                {l}
+              </option>
+            ))}
+          </select>
+        </label>
+
+        <label className="flex items-center gap-2">
+          <span className="text-sm">Limit:</span>
+          <input
+            className="border rounded px-2 py-1 w-24"
+            type="number"
+            min={1}
+            max={500}
+            value={limit}
+            onChange={(e) => setLimit(Number(e.target.value))}
+          />
+        </label>
+
+        <div className="text-sm text-gray-600">
+          Loaded: <b>{gestures.length}</b> • Showing:{" "}
+          <b>{filteredGestures.length}</b>
+        </div>
+      </div>
+
+      {filteredGestures.length > 0 && (
+        <div className="w-full max-w-6xl">
+          <Plot
+            data={filteredGestures.map((gesture, index) => ({
+              x: gesture.points.map((p) => p.x),
+              y: gesture.points.map((p) => p.y),
+              z: gesture.points.map((p) => p.z),
+              mode: "markers+lines",
+              type: "scatter3d",
+              name: `${gesture.label} (#${index + 1})`,
+              marker: { size: 4 },
+              line: { width: 2 },
+            }))}
+            layout={{
+              title: `3D Gesture Visualization${
+                labelFilter === "ALL" ? "" : ` — ${labelFilter}`
+              }`,
+              scene: {
+                xaxis: { title: "X" },
+                yaxis: { title: "Y" },
+                zaxis: { title: "Z" },
+              },
+              legend: { orientation: "h" },
+              margin: { l: 0, r: 0, b: 0, t: 40 },
+            }}
+            style={{ width: "100%", height: "650px" }}
+          />
+        </div>
+      )}
     </div>
   );
-}
+};
+
+export default VisualizePage;

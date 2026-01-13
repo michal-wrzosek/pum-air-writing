@@ -1,0 +1,6 @@
+fastapi==0.110.0
+uvicorn[standard]==0.30.6
+pydantic==1.10.13
+dataiku-scoring
+numpy
+pandas

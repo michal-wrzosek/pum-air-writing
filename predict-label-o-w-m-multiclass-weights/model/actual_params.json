@@ -1,0 +1,12 @@
+{
+    "resolved": {
+        "algorithm": "LOGISTIC_REGRESSION",
+        "skipExpensiveReports": false,
+        "logit": {
+            "penalty": "l1",
+            "multi_class": "ovr",
+            "C": 0.11171171008778126
+        }
+    },
+    "other": {}
+}

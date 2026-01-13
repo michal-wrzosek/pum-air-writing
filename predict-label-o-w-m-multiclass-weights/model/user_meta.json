@@ -1,0 +1,41 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0,
+  "description": "",
+  "name": "Logistic Regression (s1) - v1",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "sensor_data_o_w_m"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "sensor_data_o_w_m"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "sensor_data_o_w_m"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "LOGISTIC_REGRESSION"
+    },
+    {
+      "key": "model:date",
+      "value": "2026-01-10T11:52:10.954+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2026-01-10T11:52:10.954+0000"
+    },
+    {
+      "key": "model:name",
+      "value": "Logistic Regression (s1) - v1"
+    }
+  ]
+}

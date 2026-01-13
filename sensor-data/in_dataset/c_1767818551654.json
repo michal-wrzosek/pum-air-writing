@@ -1,0 +1,119 @@
+{
+  "label": "c",
+  "data": [
+    {
+      "x": 0.1,
+      "z": 1.1,
+      "y": 0,
+      "msElapsedSinceStart": 50
+    },
+    {
+      "x": -0.5,
+      "z": 0.2,
+      "y": 0,
+      "msElapsedSinceStart": 84
+    },
+    {
+      "x": -0.5,
+      "z": -0.2,
+      "y": 0,
+      "msElapsedSinceStart": 100
+    },
+    {
+      "x": -0.30000000000000004,
+      "z": -0.7000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 117
+    },
+    {
+      "x": 0.6000000000000001,
+      "z": -1.9000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 150
+    },
+    {
+      "x": 1.2000000000000002,
+      "z": -2.8000000000000003,
+      "y": 0,
+      "msElapsedSinceStart": 167
+    },
+    {
+      "x": 1.7000000000000002,
+      "z": -3.6,
+      "y": 0,
+      "msElapsedSinceStart": 183
+    },
+    {
+      "x": 1.8,
+      "z": -4.3,
+      "y": 0,
+      "msElapsedSinceStart": 200
+    },
+    {
+      "x": 1.6,
+      "z": -4.7,
+      "y": 0,
+      "msElapsedSinceStart": 217
+    },
+    {
+      "x": 1.8,
+      "z": -4.5,
+      "y": 0,
+      "msElapsedSinceStart": 234
+    },
+    {
+      "x": 2.3000000000000003,
+      "z": -4,
+      "y": 0,
+      "msElapsedSinceStart": 250
+    },
+    {
+      "x": 2.4000000000000004,
+      "z": -1.9000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 267
+    },
+    {
+      "x": 2.4000000000000004,
+      "z": -0.6000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 284
+    },
+    {
+      "x": 2.5,
+      "z": 0.7000000000000001,
+      "y": 0,
+      "msElapsedSinceStart": 300
+    },
+    {
+      "x": 2.5,
+      "z": 1.7000000000000002,
+      "y": 0,
+      "msElapsedSinceStart": 317
+    },
+    {
+      "x": 2.1,
+      "z": 2.9000000000000004,
+      "y": 0,
+      "msElapsedSinceStart": 334
+    },
+    {
+      "x": 1.7000000000000002,
+      "z": 4.4,
+      "y": 0,
+      "msElapsedSinceStart": 350
+    },
+    {
+      "x": 1.1,
+      "z": 6.1000000000000005,
+      "y": 0,
+      "msElapsedSinceStart": 367
+    },
+    {
+      "x": 0.30000000000000004,
+      "z": 7,
+      "y": 0,
+      "msElapsedSinceStart": 384
+    }
+  ]
+}

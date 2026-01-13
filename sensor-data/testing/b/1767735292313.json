@@ -1,0 +1,215 @@
+{
+  "label": "",
+  "data": [
+    {
+      "x": -2,
+      "y": 5.7,
+      "z": 6.6000000000000005,
+      "msElapsedSinceStart": 34
+    },
+    {
+      "x": -2.2,
+      "y": 5.4,
+      "z": 6.5,
+      "msElapsedSinceStart": 50
+    },
+    {
+      "x": -2.4000000000000004,
+      "y": 5.1000000000000005,
+      "z": 6,
+      "msElapsedSinceStart": 67
+    },
+    {
+      "x": -2,
+      "y": 4.7,
+      "z": 5.4,
+      "msElapsedSinceStart": 84
+    },
+    {
+      "x": -2.2,
+      "y": 4.6000000000000005,
+      "z": 4.1000000000000005,
+      "msElapsedSinceStart": 101
+    },
+    {
+      "x": -2.2,
+      "y": 4,
+      "z": 1.8,
+      "msElapsedSinceStart": 117
+    },
+    {
+      "x": -2.8000000000000003,
+      "y": 2.7,
+      "z": 0.1,
+      "msElapsedSinceStart": 135
+    },
+    {
+      "x": -3.4000000000000004,
+      "y": 1.7000000000000002,
+      "z": -0.9,
+      "msElapsedSinceStart": 150
+    },
+    {
+      "x": -3.8000000000000003,
+      "y": 1,
+      "z": -1,
+      "msElapsedSinceStart": 168
+    },
+    {
+      "x": -3,
+      "y": 0.5,
+      "z": 0.5,
+      "msElapsedSinceStart": 183
+    },
+    {
+      "x": -1.4000000000000001,
+      "y": -0.30000000000000004,
+      "z": 0.8,
+      "msElapsedSinceStart": 200
+    },
+    {
+      "x": 0.4,
+      "y": -1,
+      "z": 1.7000000000000002,
+      "msElapsedSinceStart": 217
+    },
+    {
+      "x": 2.8000000000000003,
+      "y": -1.5,
+      "z": 5.2,
+      "msElapsedSinceStart": 234
+    },
+    {
+      "x": 7.4,
+      "y": 0.9,
+      "z": 17.3,
+      "msElapsedSinceStart": 250
+    },
+    {
+      "x": 9.4,
+      "y": 3.8000000000000003,
+      "z": 24.1,
+      "msElapsedSinceStart": 267
+    },
+    {
+      "x": 8.5,
+      "y": 3.8000000000000003,
+      "z": 24.3,
+      "msElapsedSinceStart": 283
+    },
+    {
+      "x": 7.2,
+      "y": 2.8000000000000003,
+      "z": 21.200000000000003,
+      "msElapsedSinceStart": 301
+    },
+    {
+      "x": 6.4,
+      "y": 3.3000000000000003,
+      "z": 20.400000000000002,
+      "msElapsedSinceStart": 317
+    },
+    {
+      "x": 5.2,
+      "y": 3.7,
+      "z": 21.400000000000002,
+      "msElapsedSinceStart": 334
+    },
+    {
+      "x": 2.1,
+      "y": 2.7,
+      "z": 21.3,
+      "msElapsedSinceStart": 350
+    },
+    {
+      "x": -1.8,
+      "y": 0.5,
+      "z": 20.3,
+      "msElapsedSinceStart": 367
+    },
+    {
+      "x": -6.6000000000000005,
+      "y": -3.4000000000000004,
+      "z": 22,
+      "msElapsedSinceStart": 384
+    },
+    {
+      "x": -11.9,
+      "y": -7.4,
+      "z": 22.5,
+      "msElapsedSinceStart": 400
+    },
+    {
+      "x": -14.5,
+      "y": -8.6,
+      "z": 18.900000000000002,
+      "msElapsedSinceStart": 417
+    },
+    {
+      "x": -13.9,
+      "y": -9.1,
+      "z": 14.600000000000001,
+      "msElapsedSinceStart": 434
+    },
+    {
+      "x": -10.8,
+      "y": -6.800000000000001,
+      "z": 9.8,
+      "msElapsedSinceStart": 451
+    },
+    {
+      "x": -7.300000000000001,
+      "y": -4,
+      "z": 6.2,
+      "msElapsedSinceStart": 467
+    },
+    {
+      "x": -4,
+      "y": -1.8,
+      "z": 3.2,
+      "msElapsedSinceStart": 484
+    },
+    {
+      "x": -1.4000000000000001,
+      "y": -0.5,
+      "z": 2.1,
+      "msElapsedSinceStart": 500
+    },
+    {
+      "x": 0.6000000000000001,
+      "y": 0.30000000000000004,
+      "z": 2.6,
+      "msElapsedSinceStart": 517
+    },
+    {
+      "x": 2.5,
+      "y": 1.7000000000000002,
+      "z": 4.2,
+      "msElapsedSinceStart": 534
+    },
+    {
+      "x": 4.2,
+      "y": 3.3000000000000003,
+      "z": 5.4,
+      "msElapsedSinceStart": 551
+    },
+    {
+      "x": 5.2,
+      "y": 4.7,
+      "z": 6.2,
+      "msElapsedSinceStart": 567
+    },
+    {
+      "x": 5.2,
+      "y": 5.5,
+      "z": 6.7,
+      "msElapsedSinceStart": 584
+    },
+    {
+      "x": 5.7,
+      "y": 5.5,
+      "z": 7.5,
+      "msElapsedSinceStart": 601
+    }
+  ]
+}

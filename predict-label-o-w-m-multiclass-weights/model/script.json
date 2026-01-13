@@ -1,0 +1,420 @@
+{
+  "steps": [],
+  "maxProcessedMemTableBytes": -1,
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "columnOrder": [],
+  "columnWidthsByName": {},
+  "columnUseScientificNotationByName": {},
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "individualColumnsRules": [],
+    "valueColoringMode": "HASH",
+    "coloringGroups": []
+  },
+  "sorting": [],
+  "analysisColumnData": {
+    "p2_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p10_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p12_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p2_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p6_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p10_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p10_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p14_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p4_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p12_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p10_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p12_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p16_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p4_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p6_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p14_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p4_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p12_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p14_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p18_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p2_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p4_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p8_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p16_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p2_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p14_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p16_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p18_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p16_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p18_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p18_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "duration_ms": {
+      "meaning": "LongMeaning",
+      "isColumnEdited": false
+    },
+    "p9_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p7_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p9_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "range_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p7_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p5_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p7_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p9_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "range_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "range_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p11_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p1_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p13_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p1_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p11_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p15_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p1_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p5_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p11_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p13_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p17_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "avg_step_length": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p3_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p11_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p5_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p13_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p15_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p19_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p3_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p5_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p9_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p13_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p3_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p15_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p17_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p1_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p3_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p7_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p15_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p17_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p19_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p17_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p19_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p19_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p20_t": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p20_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p20_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p20_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "label": {
+      "meaning": "Text",
+      "isColumnEdited": false
+    },
+    "p8_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p8_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p6_z": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p8_x": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "p6_y": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    },
+    "total_path_length": {
+      "meaning": "DoubleMeaning",
+      "isColumnEdited": false
+    }
+  },
+  "explorationSampling": {
+    "selection": {
+      "maxRecordsForDisplay": -1,
+      "maxStoredBytes": 104857600,
+      "timeout": -1,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 10000,
+      "targetRatio": 0.02,
+      "ascending": true,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "autoRefreshSample": false,
+    "_refreshTrigger": 0
+  },
+  "vizSampling": {
+    "selection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "FULL",
+      "maxRecords": -1,
+      "targetRatio": 0.02,
+      "ascending": true,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1
+    },
+    "autoRefreshSample": false,
+    "_refreshTrigger": 0
+  },
+  "exploreUIParams": {},
+  "globalSearchQuery": "",
+  "explorationFilters": [],
+  "previewMode": "ALL_ROWS"
+}
